@@ -1,0 +1,214 @@
+html,
+body {
+	font-family: 'Anek Malayalam';
+	font-weight: 400;
+	background: #131313;
+	font-size: 16px;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a.gh {
+	text-decoration: underline dotted 0.1px;
+	color: #b1b1b1;
+}
+
+a.gh:hover {
+	text-decoration: none;
+	color: #e6e6e6;
+}
+
+.bi-github {
+	margin-top: 5px;	
+	color: #b1b1b1;
+}
+
+.bi-github:hover {
+	color: #e6e6e6;
+}
+
+select {
+	-webkit-border-radius: 4px;
+	-webkit-appearance: none;
+	background-image: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='16' height='16' viewBox='0 0 24 24'><path fill='#444' d='M7.406 7.828l4.594 4.594 4.594-4.594 1.406 1.406-6 6-6-6z'></path></svg>");
+	background-position: 90% 50%;
+	background-repeat: no-repeat;
+}
+
+.navbar {
+	margin: 60px 0px 40px 0px;
+	text-align: center;
+}
+
+.brand-header {
+	font-size: 48px;
+	color: #f9f9f9;
+	font-family: 'Anek Malayalam Bold';
+	font-weight: 700;
+	display: block;
+}
+
+.brand-sub-header {
+	color: #e6e6e6;
+	margin: 0px 0px 0px 0px;
+	font-size: 22px;
+}
+
+.brand-info-header {
+	color: #b1b1b1;
+	margin: 0px;
+	font-size: 15px;
+}
+
+.footer-textline {
+	font-size: 12px;
+	color: #999;
+	margin: 15px 0px 0px 0px;
+}
+
+.footer {
+	margin-bottom: 15px;
+}
+
+.btn {
+	display: block;
+	width: 100%;
+}
+
+.select-main.input-lg {
+	line-height: 28px;
+	border-radius: 4px 0px 0px 4px;
+}
+
+.btn-main {
+	border-radius: 0px 4px 4px 0px;
+	font-size: 15px;
+	padding: 12px;
+}
+
+.hide {
+	display: none;
+}
+
+.charapara-outer-container {
+	border-radius: 0px 0px 4px 4px;
+	border: 1px solid #FF5449;
+	padding: 20px;
+	font-size: 16px;
+	line-height: 1.6;
+	border-top: 0px;
+	margin: 0px 0px 30px 0px;
+}
+
+.charapara-text-container p {
+	margin-bottom: 20px;
+	color: #ffb4ab;
+}
+
+.charapara-controls-container {
+	border: 1px solid #FF5449;
+	border-radius: 4px 4px 0px 0px;
+}
+
+.control-btn {
+	padding: 15px;
+	display: inline-block;
+	border-right: 1px solid #FF5449;
+	cursor: pointer;
+	transition: all 0.1s ease-in;
+	font-size: 16px;
+	color: #ffb4ab;
+	text-align: center;
+	height: 50px;
+}
+
+.control-btn:hover {
+	background: #ab2d25;
+}
+
+.para-control-btn {
+	float: left;
+}
+
+.settings-control-btn {
+	float: right;
+}
+
+.settings-control-btn-cp {
+	float: right;
+	border-right: none;
+}
+
+.control-btn-active {
+	background: #cd463a;
+}
+
+.success-icon-small {
+	max-height: 16px;
+	margin-right: 3px;
+	vertical-align: middle;
+	opacity: 1 !important;
+}
+
+#copy-control-btn {
+	width: 150px;
+}
+
+#settings-refresh-btn {
+	border-left: 1px solid #FF5449;
+}
+
+.rotated {
+	transform: rotate(45deg);
+	transition: transform 0.5s ease;
+  }
+  
+
+.bi-pencil-fill {
+	margin-right: 5px;
+}
+
+.center {
+	text-align: center;
+}
+
+.contribute-link {
+	text-decoration: underline dotted 0.1px;
+	margin-bottom: 40px;
+	color: #b1b1b1;
+	display: block;
+	transition: all 0.1s ease-in;
+	font-size: 16px;
+}
+
+.contribute-link:hover {
+	color: #e6e6e6;
+}
+
+@media(max-width: 800px) {
+	#copy-control-btn {
+		width: auto;
+	}
+
+	.navbar {
+		margin: 40px 0 25px 0px;
+	}
+
+	.brand-header {
+		font-size: 36px;
+	}
+
+	.brand-sub-header {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 395px) {
+    .para1, .para2, .para3, .success-icon-small, .bi-arrow-clockwise {
+        width: 10px;
+        height: 10px;
+    }
+}
